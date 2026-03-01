@@ -1,0 +1,13 @@
+---
+name: main file
+on:
+  push:
+    branches:
+      - main
+jobs:
+    build:
+        runs-on: ubuntu-latest.
+        steps:
+            - name: hello to main branch
+              run: echo "hello to main branch"
+
